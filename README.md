@@ -23,8 +23,6 @@ exams.
   match-the-pairs.
 - **Armor instead of lives.** Three plates per round. Every miss shows an explanation of
   the right answer.
-- **Wadie.** An AI study buddy grounded in the course chapters, for when an explanation
-  isn't enough.
 - **Accounts.** Sign-up, operator select, match history and a leaderboard.
 
 ---
@@ -34,7 +32,7 @@ exams.
 | | |
 |---|---|
 | Framework | Next.js 15 (App Router), TypeScript, Tailwind |
-| AI | Claude (`claude-sonnet-4-6`) for question generation, explanations and Wadie; OpenAI `gpt-image-1` for operator art |
+| AI | Claude (`claude-sonnet-4-6`) for question generation, and explanations; OpenAI `gpt-image-1` for operator art |
 | Data | Supabase for auth, scores, history and the leaderboard |
 | Content | Parsed from course PDFs and DOCX files with `pdf-parse` and `mammoth` |
 | Hosting | Vercel |
